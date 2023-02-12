@@ -1,15 +1,16 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "Onboarding"
-spec.version      = "0.0.1"
-spec.summary      = "A short description of Onboarding."
+spec.version      = "1.0.0"
+spec.summary      = "Onboarding module complete"
 spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
-spec.homepage     = "http://EXAMPLE/Onboarding"
+spec.ios.deployment_target = "16"
+spec.homepage     = "https://github.com/Gabriel-P22/AppArch"
+spec.source_files = "OnboardingModule/**/*.{swift}"
+spec.author             = { "gabriel" => "emailmaker312asc@gmail.com" }
 
-spec.author             = { "gabriel" => "" }
-# Or just: spec.author    = "gabriel"
-# spec.authors            = { "gabriel" => "" }
 
-spec.source       = { :git => "https://github.com/Gabriel-P22/AppArch/tree/main/Module-Onboarding/OnboardingDEMO", :tag => "#{spec.version}" }
+spec.source       = { :git => "git@github.com:Gabriel-P22/AppArch.git" }
+spec.swift_version = "5.1"
 end

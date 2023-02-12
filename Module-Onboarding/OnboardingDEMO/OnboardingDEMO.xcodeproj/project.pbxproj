@@ -64,7 +64,7 @@
 
 /* Begin PBXFileReference section */
 		013700E1F24E0DC777F12711 /* Pods-OnboardingDEMOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingDEMOTests.release.xcconfig"; path = "Target Support Files/Pods-OnboardingDEMOTests/Pods-OnboardingDEMOTests.release.xcconfig"; sourceTree = "<group>"; };
-		48005063299950120061744D /* Onboarding.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = Onboarding.podspec; sourceTree = SOURCE_ROOT; };
+		48005063299950120061744D /* Onboarding.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Onboarding.podspec; sourceTree = SOURCE_ROOT; };
 		48AC7C8529902E49004A8FC4 /* OnboardingDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnboardingDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48AC7C8829902E49004A8FC4 /* OnboardingDEMOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingDEMOApp.swift; sourceTree = "<group>"; };
 		48AC7C8A29902E49004A8FC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -221,7 +221,6 @@
 		48AC7CB829903067004A8FC4 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				48AC7CB929903073004A8FC4 /* Components */,
 				48AC7CC029904F25004A8FC4 /* Views */,
 			);
 			path = Modules;
@@ -252,7 +251,6 @@
 				48AC7CCA299069A4004A8FC4 /* MainScreen+Delegate */,
 				48AC7CB229902EF9004A8FC4 /* FeatureScreen */,
 				48AC7CC729906253004A8FC4 /* Config */,
-				48AC7CC12990525B004A8FC4 /* Extension */,
 			);
 			path = Infrastruct;
 			sourceTree = "<group>";
@@ -334,8 +332,10 @@
 			isa = PBXGroup;
 			children = (
 				48005063299950120061744D /* Onboarding.podspec */,
+				48AC7CC12990525B004A8FC4 /* Extension */,
 				48CBB32629993DE90027B340 /* Assets */,
 				48CBB31A299927340027B340 /* Screen */,
+				48AC7CB929903073004A8FC4 /* Components */,
 			);
 			path = OnboardingModule;
 			sourceTree = "<group>";

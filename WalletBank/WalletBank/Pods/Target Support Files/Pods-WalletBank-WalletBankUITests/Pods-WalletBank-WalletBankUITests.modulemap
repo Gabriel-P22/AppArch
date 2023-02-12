@@ -1,0 +1,6 @@
+framework module Pods_WalletBank_WalletBankUITests {
+  umbrella header "Pods-WalletBank-WalletBankUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
