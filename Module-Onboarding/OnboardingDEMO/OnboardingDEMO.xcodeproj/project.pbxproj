@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0CD18083425BD715BDB8EEB7 /* Pods_OnboardingDEMOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A7411DBBBC989EC2D4E13A6 /* Pods_OnboardingDEMOTests.framework */; };
+		48005064299950120061744D /* Onboarding.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 48005063299950120061744D /* Onboarding.podspec */; };
 		48AC7C8929902E49004A8FC4 /* OnboardingDEMOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AC7C8829902E49004A8FC4 /* OnboardingDEMOApp.swift */; };
 		48AC7C8B29902E49004A8FC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AC7C8A29902E49004A8FC4 /* ContentView.swift */; };
 		48AC7C8D29902E4C004A8FC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AC7C8C29902E4C004A8FC4 /* Assets.xcassets */; };
@@ -63,6 +64,7 @@
 
 /* Begin PBXFileReference section */
 		013700E1F24E0DC777F12711 /* Pods-OnboardingDEMOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingDEMOTests.release.xcconfig"; path = "Target Support Files/Pods-OnboardingDEMOTests/Pods-OnboardingDEMOTests.release.xcconfig"; sourceTree = "<group>"; };
+		48005063299950120061744D /* Onboarding.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = Onboarding.podspec; sourceTree = SOURCE_ROOT; };
 		48AC7C8529902E49004A8FC4 /* OnboardingDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnboardingDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48AC7C8829902E49004A8FC4 /* OnboardingDEMOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingDEMOApp.swift; sourceTree = "<group>"; };
 		48AC7C8A29902E49004A8FC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -331,6 +333,7 @@
 		48CBB319299927110027B340 /* OnboardingModule */ = {
 			isa = PBXGroup;
 			children = (
+				48005063299950120061744D /* Onboarding.podspec */,
 				48CBB32629993DE90027B340 /* Assets */,
 				48CBB31A299927340027B340 /* Screen */,
 			);
@@ -536,6 +539,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48AC7C9029902E4C004A8FC4 /* Preview Assets.xcassets in Resources */,
+				48005064299950120061744D /* Onboarding.podspec in Resources */,
 				48CBB33229993E090027B340 /* Inter-Regular.ttf in Resources */,
 				48CBB33529993E090027B340 /* Inter-Light.ttf in Resources */,
 				48CBB33829993E090027B340 /* Inter-SemiBold.ttf in Resources */,
