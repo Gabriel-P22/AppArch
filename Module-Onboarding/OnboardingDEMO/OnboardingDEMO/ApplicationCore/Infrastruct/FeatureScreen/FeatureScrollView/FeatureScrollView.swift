@@ -18,12 +18,17 @@ struct FeatureScrollView: View {
 
 @ViewBuilder
 func makeScrollView(views: [BuildViews], title: String) -> some View {
-    ForEach(views, id: \.viewName) { feature in
-        NavigationLink {
-            OpenFeature(view: feature.view, title: feature.viewName)
-        } label: {
-            CustomLinkButton(title: feature.viewName)
+    if views.count == 0 {
+        CustomLinkButton(title: "Dont have Features...", color: .black)
+            .navigationTitle(title)
+    } else {
+        ForEach(views, id: \.viewName) { feature in
+            NavigationLink {
+                OpenFeature(view: feature.view, title: feature.viewName)
+            } label: {
+                CustomLinkButton(title: feature.viewName, color: .black)
+            }
+            .navigationTitle(title)
         }
-        .navigationTitle(title)
     }
 }

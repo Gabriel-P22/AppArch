@@ -1,0 +1,6 @@
+framework module Pods_OnboardingDEMO_OnboardingDEMOUITests {
+  umbrella header "Pods-OnboardingDEMO-OnboardingDEMOUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
